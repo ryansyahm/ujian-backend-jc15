@@ -1,18 +1,30 @@
 {
-  "name": "ujian-backend-jc15",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mysql": "^2.18.1"
-  }
+	"name": "ujian-backend-jc15",
+	"version": "1.0.0",
+	"description": "![purwadhika](https://dm2302files.storage.live.com/y4mXzhUZVMNL_p9tVgW1HqlEUJa6ppyVCfKnxxFC4x5nfuSs_-NnMTSOFdPq6MIGrxKEZW8uGWVreQ9awWZboO6NydIZpac87UZ48QL0Y40HZv-uJOAAqVADo9m_ZBZ5ThfKAaFnCabsFufrOnkmjwdWVsaFcPVmaha7sQOlW0jmQwbbEGmbVih8UC2ouXKKdRs?width=256&height=39&cropmode=none)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-bearer-token": "^2.4.0",
+		"jsonwebtoken": "^8.5.1",
+		"mysql": "^2.18.1",
+		"nodemailer": "^6.4.17"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ryansyahm/ujian-backend-jc15.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ryansyahm/ujian-backend-jc15/issues"
+	},
+	"homepage": "https://github.com/ryansyahm/ujian-backend-jc15#readme"
 }
